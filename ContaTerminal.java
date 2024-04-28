@@ -19,7 +19,7 @@ public class ContaTerminal {
         System.out.println("Qual vai ser seu deposito (Saldo) inicial? ");
         String saldo = scanner.next();
 
-        System.out.println("Olá " + NOME + "! Obrigado por criar sua conta junto ao nosso banco, sua agencia é " + AGENCIA + ", e conta de numero " + conta + ", ja seu saldo atual é R$: " + saldo + " . Lembrando que ele já esta disponivel para saques!");
+        System.out.println("Olá, " + NOME + "! Obrigado por criar sua conta junto ao nosso banco, sua agencia é " + AGENCIA + ", e conta de numero " + conta + ", ja seu saldo atual é R$: " + saldo + " . Lembrando que ele já esta disponivel para saques!");
 
     }
 }
