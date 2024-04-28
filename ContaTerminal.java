@@ -6,7 +6,7 @@ public class ContaTerminal {
     public static void main (String[] args){
        
         try (Scanner scanner = new Scanner(System.in).useLocale(Locale.US)) {
-            System.out.println("Olá, como posso te chamar? ");
+            System.out.println("Olá, como posso te chamarr? ");
             String NOME = scanner.next();
 
             System.out.println("Qual sua Agencia de preferencia? ");
